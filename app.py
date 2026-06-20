@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def home():
-    return "<h1>Hello, World!</h1>"
+    return "<h1>Welcome Back</h1>"
 
 
 @app.route("/chat", methods=["POST"])
